@@ -140,6 +140,7 @@ export const config = {
       return true;
     },
   },
+  debug: true,
 } satisfies NextAuthConfig;
 
 export const { handlers, auth, signIn, signOut } = NextAuth(config);
